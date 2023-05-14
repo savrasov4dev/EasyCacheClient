@@ -1,0 +1,5 @@
+<?php
+
+define("CACHE_SERVICE_SOCKET", dirname(__DIR__) . "/EasyCacheService/easyCacheService.sock");
+
+const MAX_READ_LENGTH = 2 ** 16;
